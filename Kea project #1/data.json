@@ -1,0 +1,174 @@
+{
+  "artists": [
+    {
+      "id": "1",
+      "name": "Drakes",
+      "birthdate": "1986-10-24",
+      "activeSince": "2001-01-01",
+      "genres": [
+        "Hip-Hop",
+        "Pop"
+      ],
+      "labels": [
+        "OVO",
+        "Sony Music"
+      ],
+      "website": "https://www.drake.com",
+      "shortDescription": "Acclaimed rapper.",
+      "image": "/images/Drake.jpg"
+    },
+    {
+      "id": "2",
+      "name": "taylor swifts",
+      "birthdate": "1989-12-03",
+      "activeSince": "2004-05-18",
+      "genres": [
+        "Pop",
+        "Country"
+      ],
+      "labels": [
+        "Big Machine",
+        ""
+      ],
+      "website": "https://www.taylorswift.com",
+      "shortDescription": "Talented vocalist and songwriter.",
+      "image": "/images/taylor.png"
+    },
+    {
+      "id": 3,
+      "name": "Eminem",
+      "birthdate": "1978-08-25",
+      "activeSince": "1998-04-05",
+      "genres": [
+        "Hip-Hop",
+        "Rap"
+      ],
+      "labels": [
+        "Def Jam Recordings",
+        "Interscope Records"
+      ],
+      "website": "https://www.michaeljohnsonmusic.com",
+      "image": "/images/eminem.jpg",
+      "shortDescription": "Renowned rapper and lyricist."
+    },
+    {
+      "id": 4,
+      "name": "Rihanna",
+      "birthdate": "1983-06-02",
+      "activeSince": "2003-11-15",
+      "genres": [
+        "Country",
+        "Folk"
+      ],
+      "labels": [
+        "Nashville Records",
+        "Columbia Records"
+      ],
+      "website": "https://www.rihanna.com",
+      "image": "/images/rihanna.png",
+      "shortDescription": "R&B sensation"
+    },
+    {
+      "id": 5,
+      "name": "Bruce Springsteen",
+      "birthdate": "1992-04-12",
+      "activeSince": "2012-09-22",
+      "genres": [
+        "Electronic",
+        "Dance"
+      ],
+      "labels": [
+        "Spinnin' Records",
+        "Ultra Music"
+      ],
+      "website": "https://www.springsteen.com",
+      "image": "/images/springsteen.png",
+      "shortDescription": "Rock legend."
+    },
+    {
+      "id": 6,
+      "name": "Shania Twain",
+      "birthdate": "1989-01-30",
+      "activeSince": "2009-07-12",
+      "genres": [
+        "Indie Pop",
+        "Alternative"
+      ],
+      "labels": [
+        "Indie Label",
+        "Atlantic Records"
+      ],
+      "website": "https://www.emilygreenmusic.com",
+      "image": "/images/twain.png",
+      "shortDescription": "Country legend."
+    },
+    {
+      "id": 7,
+      "name": "Bob Dylan",
+      "birthdate": "1980-11-18",
+      "activeSince": "2000-03-28",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ],
+      "labels": [
+        "Epic Records",
+        "Capitol Records"
+      ],
+      "website": "https://www.danielmartinezmusic.com",
+      "image": "/images/bob_dylan.jpg",
+      "shortDescription": "Rock icon."
+    },
+    {
+      "id": 8,
+      "name": "Beyonce",
+      "birthdate": "1995-07-05",
+      "activeSince": "2015-12-10",
+      "genres": [
+        "Pop",
+        "Electropop"
+      ],
+      "labels": [
+        "RCA Records",
+        "Polydor Records"
+      ],
+      "website": "https://www.oliviataylormusic.com",
+      "image": "/images/beyonce.png",
+      "shortDescription": "Pop sensation."
+    },
+    {
+      "id": 9,
+      "name": "David Bowie",
+      "birthdate": "1987-09-08",
+      "activeSince": "2007-02-17",
+      "genres": [
+        "pop",
+        "rock"
+      ],
+      "labels": [
+        "Roc Nation",
+        "Epic Records"
+      ],
+      "website": "https://www.alexdavismusic.com",
+      "image": "/images/bowie.jpg",
+      "shortDescription": "The master with the voodoo. who do?."
+    },
+    {
+      "id": 10,
+      "name": "lady gaga",
+      "birthdate": "1998-12-22",
+      "activeSince": "2018-06-07",
+      "genres": [
+        "Indie Rock",
+        "Alternative"
+      ],
+      "labels": [
+        "Indie Label",
+        "Sub Pop Records"
+      ],
+      "website": "https://www.sophiaadamsmusic.com",
+      "image": "/images/gaga.jpg",
+      "shortDescription": "Indie rock prodigy."
+    }
+  ]
+}

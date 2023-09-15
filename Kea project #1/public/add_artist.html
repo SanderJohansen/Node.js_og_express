@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add_artist.css">
+    <title>Add New Artist</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Add New Artist</h2>
+        <form id="add-artist-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="activeSince">artistActiveSince:</label>
+            <input type="date" id="activeSince" name="activeSince" required>
+    
+            <label for="genres">Artist Genre:</label>
+            <input type="text" id="genres" name="genres" required>
+    
+            <label for="labels">Artist Labels:</label>
+            <input type="text" id="labels" name="labels" required>
+    
+            <label for="website">Artist Website:</label>
+            <input type="text" id="website" name="website" required>
+    
+            <label for="shortDescription">Artist Description:</label>
+            <input type="text" id="shortDescription" name="shortDescription" required>            
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="add_artist.js"></script>
+</body>
+</html>

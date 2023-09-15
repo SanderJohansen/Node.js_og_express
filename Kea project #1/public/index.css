@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.view-btn, .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-btn, .edit-btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.view-btn:hover, .edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+.add-artist-btn {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.add-artist-btn a:hover {
+    background-color: #45a049; 
+}
+
+/* .show-artist-btn {
+    text-align: center;
+    margin-top: 20px; 
+} */
+
+.add-artist-btn a {
+    display: inline-block;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+
+.add-artist-btn a:hover {
+    background-color: #45a049; 
+}
+
+#showFavorites {
+    padding: 10px 15px;
+    background-color: #4CAF50;  /* Green background */
+    border: none;
+    color: #fff;  /* White text */
+    cursor: pointer;
+    border-radius: 5px;  /* Rounded corners */
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#showFavorites:hover {
+    background-color: #45a049;  /* Darken the green a bit on hover */
+}
+
+/* Style for the "Favorite" and "Unfavorite" buttons for each artist */
+.favorite-btn {
+    padding: 5px 10px;
+    background-color: #FFD700;  /* Gold background for favorite */
+    border: none;
+    color: #333;  /* Dark text */
+    cursor: pointer;
+    border-radius: 3px;  /* Slightly rounded corners */
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.favorite-btn:hover {
+    background-color: #FFC400;  /* Darken the gold a bit on hover */
+}
+
+.unfavorite-btn {
+    padding: 5px 10px;
+    background-color: #ddd;  /* Light gray for unfavorite */
+    border: none;
+    color: #666;  /* Darker text */
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.unfavorite-btn:hover {
+    background-color: #ccc;  /* Darken the gray a bit on hover */
+}
+
